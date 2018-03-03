@@ -1,7 +1,7 @@
 import json
 
 class Conf():
-    value = []
+    value = {}
 
     def load(self, file_name):
         file_config = open('./env/'+ file_name, 'r')
