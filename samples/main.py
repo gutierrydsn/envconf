@@ -14,3 +14,5 @@ prepare_config(env_name)
 
 print('var1 :' + config.value['var1'])
 print('var2 :' + config.value['var2'])
+
+print('sub :', config.value['sub'])
